@@ -1,0 +1,124 @@
+body {  
+    background: #baf1e8;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+
+nav a {
+    text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+#banner{
+    margin: auto;
+    display: block;
+    height: 10%;
+    width: 10%;
+}
+
+.principal{
+    text-align: center;
+    padding: 10px;
+}
+.titulo-centralizado{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+p{
+    text-align: center;
+    font-size:40px;
+}
+
+i {
+    color: #ff0000;
+}
+
+.itens{
+    font-style: italic;
+    font-size: 40px;
+}
+
+.texto{
+    background: #ffffff
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.jogos{
+    width: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.jogos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 1% 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.jogos li:hover{
+    border-color:#c78c19;
+}
+
+.jogos li:hover h3{
+    font-size: 34px;
+}
+
+.jogos li:active {
+	border-color: #e40d4d;	
+}
+
+img {
+    width: 250px;
+    height: 356px;
+}
+
+.jogos h3 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descricao-de-jogo {
+	font-size: 18px;
+}
+
+.tipo-de-jogo {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
