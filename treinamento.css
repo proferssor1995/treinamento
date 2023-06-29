@@ -89,7 +89,10 @@ ul {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+    background: #96f3ad
 }
+
+.
 
 .jogos li:hover{
     border-color:#c78c19;
@@ -99,13 +102,74 @@ ul {
     font-size: 34px;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+   
+  }
+  
+  .gif-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 356px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-item:hover .gif-overlay {
+    opacity: 1;
+  }
+  
+  .gif1 {
+    background-image: url(street-fighter-ii-snes.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .gif2 {
+    background-image: url(farcry1.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .gif3 {
+    background-image: url(winning-eleven.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .gif4 {
+    background-image: url(smashbros.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .gif5 {
+    background-image: url(zelda.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  
 .jogos li:active {
 	border-color: #e40d4d;	
 }
 
 img {
-    width: 250px;
+    width: 450px;
     height: 356px;
+    cursor: pointer;
 }
 
 .jogos h3 {
@@ -114,11 +178,13 @@ img {
 }
 
 .descricao-de-jogo {
-	font-size: 18px;
+	font-size: 25px;
 }
 
 .tipo-de-jogo {
-	font-size: 22px;
+	font-size: 25px;
 	font-weight: bold;
 	margin-top: 10px;
+    text-transform: uppercase;
 }
+
