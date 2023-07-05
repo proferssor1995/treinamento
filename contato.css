@@ -1,0 +1,81 @@
+body {  
+    background: #baf1e8;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+
+nav a {
+    text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+#banner{
+    margin: auto;
+    display: block;
+    height: 10%;
+    width: 10%;
+}
+
+.principal{
+    text-align: center;
+    padding: 10px;
+}
+.titulo-centralizado{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.texto{
+    background: #c78c19;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form p {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
