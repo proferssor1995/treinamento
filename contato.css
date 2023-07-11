@@ -51,11 +51,12 @@ nav a:hover {
 }
 
 .texto{
-    background: #c78c19;
+    background: #ffffff;
+    
 }
 
 main {
-	width: 940px;
+	width: auto;
 	margin: 0 auto;
 }
 
@@ -67,6 +68,11 @@ form label, form p {
 	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
+}
+
+.descricao{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .input-padrao{
