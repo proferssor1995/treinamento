@@ -161,7 +161,26 @@ ul {
     background-repeat: no-repeat;
   }
 
-  
+  .gif6 {
+    background-image: url(renéhiguita-goal.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .gif7 {
+    background-image: url(natação.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .gif8 {
+    background-image: url(alongamento.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 .jogos li:active {
 	border-color: #e40d4d;	
 }
