@@ -207,3 +207,21 @@ img {
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 780px) {{
+  .caixa, .principal, {
+    width: auto;
+  }
+
+	nav {
+		position: static;
+	}
+
+  h1{
+		text-align: center;
+	}
+
+  .image-item, .image-container, .jogos, .gif-overlay, .itens {
+    width: auto; 
+    heigth: auto;
+  }
+}
