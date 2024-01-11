@@ -81,6 +81,7 @@ ul {
 
 .jogos li {
 	display: inline-block;
+  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
 	text-align: center;
 	width: 30%;
 	vertical-align: top;
@@ -89,7 +90,7 @@ ul {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
-    background: #96f3ad
+  background: #96f3ad
 }
 
 .
